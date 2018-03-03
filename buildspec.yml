@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+   build:
+      commands:
+         - mvn install
+
+artifacts:
+   file:
+      - appspec.yml
+      - target/DemoTomcatCI.war
+      - scripts/*
+
+cache:
+   paths:
+      - '/root/.m2/**/*'
