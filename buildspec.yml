@@ -4,6 +4,10 @@ phases:
    build:
       commands:
          - mvn install
+         
+   post_build:
+      commands:
+         - zip test-deploy.zip appspec.yml target scripts
 
 artifacts:
    files:
