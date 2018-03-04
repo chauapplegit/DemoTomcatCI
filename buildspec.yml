@@ -6,7 +6,7 @@ phases:
          - mvn install
 
 artifacts:
-   file:
+   files:
       - appspec.yml
       - target/DemoTomcatCI.war
       - scripts/*
