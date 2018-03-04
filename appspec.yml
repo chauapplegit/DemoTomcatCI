@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /target/DemoTomcatCI.war
-   - destination: /tmp/codedeploy/upload/
+     destination: /tmp/codedeploy/upload/
    - source: /scripts/configure_http_port.xsl
-   - destination: /tmp/codedeploy/upload/
+     destination: /tmp/codedeploy/upload/
 
 hooks:
    ApplicationStop:
