@@ -7,7 +7,7 @@ phases:
          
    post_build:
       commands:
-         - zip -r test-deploy.zip appspec.yml target/* scripts/*
+         - zip -r test-deploy.zip appspec.yml target/DemoTomcatCI.war scripts/*
 
 artifacts:
    files:
