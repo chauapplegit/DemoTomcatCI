@@ -10,7 +10,6 @@ artifacts:
       - appspec.yml
       - target/DemoTomcatCI.war
       - scripts/*
-   discard-paths: yes
 
 cache:
    paths:
